@@ -1,0 +1,25 @@
+---
+languages:
+  Ruby: true
+  JavaScript: true
+engines:
+  rubocop:
+    enabled: true
+  bundler-audit:
+    enabled: true
+  fixme:
+    enabled: true
+ratings:
+  paths:
+  - app/**
+  - config/**
+  - frontend/**
+  - lib/**
+  - "**.rb"
+  -
+exclude_paths:
+  - .bundle/**/*
+  - frontend/tests/**/*
+  - spec/**/*
+  - spec_legacy/**/*
+  - features/**/*
